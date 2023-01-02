@@ -98,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				D8D83DFB29632FD50095D4F9 /* Modules */,
-				D86853FA294F516400BBDF46 /* AppDelegate.swift */,
-				D86853FC294F516400BBDF46 /* SceneDelegate.swift */,
 				D868542A294F80ED00BBDF46 /* Resources */,
 				D868542C294F810800BBDF46 /* App */,
 			);
@@ -134,6 +132,8 @@
 		D868542C294F810800BBDF46 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				D86853FA294F516400BBDF46 /* AppDelegate.swift */,
+				D86853FC294F516400BBDF46 /* SceneDelegate.swift */,
 				D8685405294F516500BBDF46 /* LaunchScreen.storyboard */,
 				D8685408294F516500BBDF46 /* Info.plist */,
 			);
