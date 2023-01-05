@@ -14,6 +14,9 @@
 		D8685412294F516500BBDF46 /* SpeedReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8685411294F516500BBDF46 /* SpeedReaderTests.swift */; };
 		D868541C294F516500BBDF46 /* SpeedReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868541B294F516500BBDF46 /* SpeedReaderUITests.swift */; };
 		D868541E294F516500BBDF46 /* SpeedReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868541D294F516500BBDF46 /* SpeedReaderUITestsLaunchTests.swift */; };
+		D895B45B2966F826005F228F /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B45A2966F826005F228F /* MainViewPresenter.swift */; };
+		D895B4602966FE9D005F228F /* AssemblyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B45F2966FE9D005F228F /* AssemblyBuilder.swift */; };
+		D895B46329670062005F228F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B46229670062005F228F /* Router.swift */; };
 		D8D83DFD296330380095D4F9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D83DFC296330380095D4F9 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,9 @@
 		D8685417294F516500BBDF46 /* SpeedReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D868541B294F516500BBDF46 /* SpeedReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReaderUITests.swift; sourceTree = "<group>"; };
 		D868541D294F516500BBDF46 /* SpeedReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D895B45A2966F826005F228F /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
+		D895B45F2966FE9D005F228F /* AssemblyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyBuilder.swift; sourceTree = "<group>"; };
+		D895B46229670062005F228F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D8D83DFC296330380095D4F9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,9 +103,9 @@
 		D86853F9294F516400BBDF46 /* SpeedReader */ = {
 			isa = PBXGroup;
 			children = (
-				D8D83DFB29632FD50095D4F9 /* Modules */,
-				D868542A294F80ED00BBDF46 /* Resources */,
+				D895B4582966F6BB005F228F /* Core */,
 				D868542C294F810800BBDF46 /* App */,
+				D868542A294F80ED00BBDF46 /* Resources */,
 			);
 			path = SpeedReader;
 			sourceTree = "<group>";
@@ -132,12 +138,46 @@
 		D868542C294F810800BBDF46 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				D86853FA294F516400BBDF46 /* AppDelegate.swift */,
-				D86853FC294F516400BBDF46 /* SceneDelegate.swift */,
 				D8685405294F516500BBDF46 /* LaunchScreen.storyboard */,
 				D8685408294F516500BBDF46 /* Info.plist */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		D895B4582966F6BB005F228F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D895B46129670053005F228F /* Router */,
+				D895B45E2966FE8B005F228F /* Factory */,
+				D8D83DFB29632FD50095D4F9 /* Modules */,
+				D895B4592966F6C4005F228F /* Delegates */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D895B4592966F6C4005F228F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D86853FA294F516400BBDF46 /* AppDelegate.swift */,
+				D86853FC294F516400BBDF46 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D895B45E2966FE8B005F228F /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D895B45F2966FE9D005F228F /* AssemblyBuilder.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		D895B46129670053005F228F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D895B46229670062005F228F /* Router.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		D8D83DFB29632FD50095D4F9 /* Modules */ = {
@@ -152,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				D8D83DFC296330380095D4F9 /* MainViewController.swift */,
+				D895B45A2966F826005F228F /* MainViewPresenter.swift */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -287,7 +328,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D83DFD296330380095D4F9 /* MainViewController.swift in Sources */,
+				D895B4602966FE9D005F228F /* AssemblyBuilder.swift in Sources */,
 				D86853FB294F516400BBDF46 /* AppDelegate.swift in Sources */,
+				D895B45B2966F826005F228F /* MainViewPresenter.swift in Sources */,
+				D895B46329670062005F228F /* Router.swift in Sources */,
 				D86853FD294F516400BBDF46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,7 +430,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_FILE = SpeedReader/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -440,7 +485,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_FILE = SpeedReader/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

@@ -5,6 +5,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var factory: AssemblyBuilder?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -12,8 +13,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         
-        let mainVC = MainViewController()
-        let navigationController = UINavigationController(rootViewController: mainVC)
+        let navigationController = UINavigationController()
+        let assemblyBuilder = AssemblyBuilder()
+        let router = Router(navigationController: navigationController, assemblyBuilder: assemblyBuilder)
+        router.initialViewController()
         
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
