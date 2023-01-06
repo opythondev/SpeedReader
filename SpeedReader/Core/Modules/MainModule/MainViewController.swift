@@ -12,6 +12,7 @@ class MainViewController: UIViewController {
     var presenter: MainViewPresenterProtocol!
     lazy var tableView: UITableView = createEmptyTableView()
     private let reuseIdentifier = "Cell"
+    private let mainColor: UIColor = .white
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,8 +36,14 @@ extension MainViewController {
     }
     
     private func setupUI() {
+        setupBackGroundColor()
         view.addSubview(tableView)
         setupConstraints()
+        setupNavigationBar("Main")
+    }
+    
+    private func setupBackGroundColor() {
+        view.backgroundColor = mainColor
     }
     
     private func setupConstraints() {
@@ -46,6 +53,32 @@ extension MainViewController {
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             tableView.bottomAnchor.constraint(equalTo: view.keyboardLayoutGuide.topAnchor)
         ])
+    }
+    
+    private func setupNavigationBar(_ title: String) {
+        navigationItem.title = title
+        navigationController?.navigationBar.prefersLargeTitles = false
+//        guard let font = UIFont.ManropeFont.headLineSemiBoldSixteen.value else { return }
+
+        let appearance = UINavigationBarAppearance()
+        appearance.backgroundColor = mainColor
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.black]
+        appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.black]
+        navigationController?.navigationBar.tintColor = mainColor
+        navigationController?.navigationBar.standardAppearance = appearance
+        navigationController?.navigationBar.compactAppearance = appearance
+        navigationController?.navigationBar.scrollEdgeAppearance = appearance
+        addAddButton()
+    }
+    
+    private func addAddButton() {
+        let button = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addFile))
+        button.tintColor = .systemBlue
+        navigationItem.rightBarButtonItems = [button]
+    }
+    
+    @objc private func addFile() {
+        print("add")
     }
 }
 
