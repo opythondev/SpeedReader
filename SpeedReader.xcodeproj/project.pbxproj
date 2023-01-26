@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D810C8E4296B2941002CF34E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D810C8E3296B2941002CF34E /* Book.swift */; };
 		D86853FB294F516400BBDF46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86853FA294F516400BBDF46 /* AppDelegate.swift */; };
 		D86853FD294F516400BBDF46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86853FC294F516400BBDF46 /* SceneDelegate.swift */; };
 		D8685404294F516500BBDF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8685403294F516500BBDF46 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		D8685412294F516500BBDF46 /* SpeedReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8685411294F516500BBDF46 /* SpeedReaderTests.swift */; };
 		D868541C294F516500BBDF46 /* SpeedReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868541B294F516500BBDF46 /* SpeedReaderUITests.swift */; };
 		D868541E294F516500BBDF46 /* SpeedReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868541D294F516500BBDF46 /* SpeedReaderUITestsLaunchTests.swift */; };
+		D87D39DB298164D1005367A6 /* AssemblyBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D39DA298164D1005367A6 /* AssemblyBuilderTests.swift */; };
+		D87D39DD29817EF1005367A6 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D39DC29817EF1005367A6 /* RouterTests.swift */; };
+		D87D39DF2982D497005367A6 /* UIViewControllerExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D39DE2982D497005367A6 /* UIViewControllerExtensionTests.swift */; };
 		D895B45B2966F826005F228F /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B45A2966F826005F228F /* MainViewPresenter.swift */; };
 		D895B4602966FE9D005F228F /* AssemblyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B45F2966FE9D005F228F /* AssemblyBuilder.swift */; };
 		D895B46329670062005F228F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B46229670062005F228F /* Router.swift */; };
@@ -39,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D810C8E3296B2941002CF34E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		D86853F7294F516400BBDF46 /* SpeedReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86853FA294F516400BBDF46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D86853FC294F516400BBDF46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +55,9 @@
 		D8685417294F516500BBDF46 /* SpeedReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D868541B294F516500BBDF46 /* SpeedReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReaderUITests.swift; sourceTree = "<group>"; };
 		D868541D294F516500BBDF46 /* SpeedReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D87D39DA298164D1005367A6 /* AssemblyBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyBuilderTests.swift; sourceTree = "<group>"; };
+		D87D39DC29817EF1005367A6 /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
+		D87D39DE2982D497005367A6 /* UIViewControllerExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensionTests.swift; sourceTree = "<group>"; };
 		D895B45A2966F826005F228F /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
 		D895B45F2966FE9D005F228F /* AssemblyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyBuilder.swift; sourceTree = "<group>"; };
 		D895B46229670062005F228F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -82,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D841E8D0296814D80002E513 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D810C8E3296B2941002CF34E /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D86853EE294F516400BBDF46 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +131,9 @@
 		D8685410294F516500BBDF46 /* SpeedReaderTests */ = {
 			isa = PBXGroup;
 			children = (
+				D87D39DE2982D497005367A6 /* UIViewControllerExtensionTests.swift */,
+				D87D39DC29817EF1005367A6 /* RouterTests.swift */,
+				D87D39DA298164D1005367A6 /* AssemblyBuilderTests.swift */,
 				D8685411294F516500BBDF46 /* SpeedReaderTests.swift */,
 			);
 			path = SpeedReaderTests;
@@ -149,6 +168,7 @@
 		D895B4582966F6BB005F228F /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				D841E8D0296814D80002E513 /* Models */,
 				D895B4652967582D005F228F /* Extensions */,
 				D895B46129670053005F228F /* Router */,
 				D895B45E2966FE8B005F228F /* Factory */,
@@ -338,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D810C8E4296B2941002CF34E /* Book.swift in Sources */,
 				D8D83DFD296330380095D4F9 /* MainViewController.swift in Sources */,
 				D895B4602966FE9D005F228F /* AssemblyBuilder.swift in Sources */,
 				D86853FB294F516400BBDF46 /* AppDelegate.swift in Sources */,
@@ -352,7 +373,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87D39DF2982D497005367A6 /* UIViewControllerExtensionTests.swift in Sources */,
 				D8685412294F516500BBDF46 /* SpeedReaderTests.swift in Sources */,
+				D87D39DD29817EF1005367A6 /* RouterTests.swift in Sources */,
+				D87D39DB298164D1005367A6 /* AssemblyBuilderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
