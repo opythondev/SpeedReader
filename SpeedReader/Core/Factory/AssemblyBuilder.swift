@@ -3,11 +3,11 @@
 import UIKit
 
 protocol BuilderProtocol {
-    func createMainModule() -> UIViewController
+    func createMainModule() -> MainViewController
 }
 
 final class AssemblyBuilder: BuilderProtocol {
-    func createMainModule() -> UIViewController {
+    func createMainModule() -> MainViewController {
         let view = MainViewController()
         let presenter = MainViewPresenter(view: view)
         view.presenter = presenter
