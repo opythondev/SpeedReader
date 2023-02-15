@@ -3,7 +3,8 @@
 import UIKit
 
 struct Book {
-    let name: String
+    let author: String
+    let title: String
     let text: String
     let pageCount: Int
     let thumbnail: UIImage?
@@ -11,6 +12,6 @@ struct Book {
 
 extension Book: Hashable {
     static func == (lhs: Book, rhs: Book) -> Bool {
-        lhs.name + String(lhs.pageCount) == rhs.name + String(rhs.pageCount)
+        lhs.author + lhs.title + String(lhs.pageCount) == rhs.author + rhs.title + String(rhs.pageCount)
     }
 }
