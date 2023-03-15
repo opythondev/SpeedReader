@@ -11,16 +11,15 @@ protocol RouterProtocol {
 final class Router: RouterProtocol {
     
     private var navigationController: UINavigationController?
-    private var assemblyBuilder: BuilderProtocol?
+    private weak var assembly: Container?
     
-    init(navigationController: UINavigationController, assemblyBuilder: BuilderProtocol) {
+    init(navigationController: UINavigationController, assembly: Container) {
         self.navigationController = navigationController
-        self.assemblyBuilder = assemblyBuilder
+        self.assembly = assembly
     }
 
     func initialViewController() {
-//        guard let mainViewController = assemblyBuilder?.createMainModule() else { return }
-        guard let mainViewController = assemblyBuilder?.createTempMainModule() else { return }
+        guard let mainViewController = assembly?.mainView else { return }
         navigationController?.viewControllers = [mainViewController]
     }
     
