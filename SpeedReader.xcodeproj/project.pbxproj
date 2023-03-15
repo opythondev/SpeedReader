@@ -114,6 +114,7 @@
 			children = (
 				D81B514F29C203B8003C14EF /* StaticDIImpl.swift */,
 				D81B515B29C21070003C14EF /* Subscripts.swift */,
+				D81B515429C204E3003C14EF /* Assembly */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -207,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				D8D83DFB29632FD50095D4F9 /* Modules */,
-				D81B515429C204E3003C14EF /* Assembly */,
 				D8B7ABE92983EC37002414F6 /* Services */,
 				D895B46129670053005F228F /* Router */,
 				D81B515129C203C1003C14EF /* DI */,
