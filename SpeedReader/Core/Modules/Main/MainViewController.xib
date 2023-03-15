@@ -20,18 +20,44 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wK1-wL-8nk">
+                    <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                    <items>
+                        <navigationItem title="Main" leftItemsSupplementBackButton="YES" largeTitleDisplayMode="always" id="X3i-EZ-Opa">
+                            <barButtonItem key="leftBarButtonItem" systemItem="edit" id="bjG-nB-WRb"/>
+                            <barButtonItem key="rightBarButtonItem" systemItem="add" id="q2y-67-bpN"/>
+                        </navigationItem>
+                    </items>
+                    <navigationBarAppearance key="scrollEdgeAppearance">
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </navigationBarAppearance>
+                </navigationBar>
+                <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uq1-qN-C5V">
+                    <rect key="frame" x="0.0" y="735" width="393" height="83"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <items>
+                        <tabBarItem systemItem="favorites" id="KPC-3h-DC6"/>
+                        <tabBarItem systemItem="more" id="Wz9-hr-TjF"/>
+                    </items>
+                </tabBar>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dUg-HX-OQa">
-                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <rect key="frame" x="0.0" y="155" width="393" height="614"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="dUg-HX-OQa" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="e3X-lq-Wvh"/>
-                <constraint firstItem="dUg-HX-OQa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pL6-O1-IlY"/>
-                <constraint firstItem="dUg-HX-OQa" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="uuQ-V7-LNF"/>
-                <constraint firstItem="dUg-HX-OQa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="wIp-QS-7hz"/>
+                <constraint firstItem="dUg-HX-OQa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0yB-z4-PZN"/>
+                <constraint firstItem="dUg-HX-OQa" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="4vz-yz-Ioa"/>
+                <constraint firstItem="dUg-HX-OQa" firstAttribute="top" secondItem="wK1-wL-8nk" secondAttribute="bottom" id="9O6-Lm-UeG"/>
+                <constraint firstItem="wK1-wL-8nk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="LDn-NU-x5U"/>
+                <constraint firstItem="uq1-qN-C5V" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="UKQ-iz-tEi"/>
+                <constraint firstItem="wK1-wL-8nk" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="eJB-Hz-ZwA"/>
+                <constraint firstItem="uq1-qN-C5V" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="f9Y-6K-JRY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dUg-HX-OQa" secondAttribute="bottom" constant="49" id="kmx-Hh-w33"/>
+                <constraint firstItem="wK1-wL-8nk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="oa7-Bm-p0h"/>
+                <constraint firstItem="uq1-qN-C5V" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="uFJ-si-DbW"/>
             </constraints>
             <point key="canvasLocation" x="107.63358778625954" y="19.718309859154932"/>
         </view>
