@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D80EA42C299D41DA00E46A64 /* TempMainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EA42B299D41DA00E46A64 /* TempMainViewPresenter.swift */; };
-		D80EA42E299D41FD00E46A64 /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EA42D299D41FD00E46A64 /* TempViewController.swift */; };
 		D810C8E4296B2941002CF34E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D810C8E3296B2941002CF34E /* Book.swift */; };
-		D85838AB29A26055006B8C95 /* LibraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85838AA29A26055006B8C95 /* LibraryTableViewCell.swift */; };
+		D81B514C29C20370003C14EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B514A29C20370003C14EF /* MainViewController.swift */; };
+		D81B514D29C20370003C14EF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81B514B29C20370003C14EF /* MainViewController.xib */; };
+		D81B515029C203B8003C14EF /* StaticDIImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B514F29C203B8003C14EF /* StaticDIImpl.swift */; };
+		D81B515629C20FD2003C14EF /* RouterAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B515529C20FD2003C14EF /* RouterAssembly.swift */; };
+		D81B515829C20FF9003C14EF /* NavigationContorllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B515729C20FF9003C14EF /* NavigationContorllerAssembly.swift */; };
+		D81B515A29C21026003C14EF /* MainViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B515929C21026003C14EF /* MainViewAssembly.swift */; };
+		D81B515C29C21070003C14EF /* Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B515B29C21070003C14EF /* Subscripts.swift */; };
 		D86853FB294F516400BBDF46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86853FA294F516400BBDF46 /* AppDelegate.swift */; };
 		D86853FD294F516400BBDF46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86853FC294F516400BBDF46 /* SceneDelegate.swift */; };
 		D8685404294F516500BBDF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8685403294F516500BBDF46 /* Assets.xcassets */; };
@@ -21,12 +25,9 @@
 		D87D39DB298164D1005367A6 /* AssemblyBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D39DA298164D1005367A6 /* AssemblyBuilderTests.swift */; };
 		D87D39DD29817EF1005367A6 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D39DC29817EF1005367A6 /* RouterTests.swift */; };
 		D87D39DF2982D497005367A6 /* UIViewControllerExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D39DE2982D497005367A6 /* UIViewControllerExtensionTests.swift */; };
-		D895B45B2966F826005F228F /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B45A2966F826005F228F /* MainViewPresenter.swift */; };
-		D895B4602966FE9D005F228F /* AssemblyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B45F2966FE9D005F228F /* AssemblyBuilder.swift */; };
 		D895B46329670062005F228F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B46229670062005F228F /* Router.swift */; };
 		D895B46729675846005F228F /* UIKit + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B46629675846005F228F /* UIKit + Extension.swift */; };
 		D8B7ABE82983EC33002414F6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7ABE72983EC33002414F6 /* DataManager.swift */; };
-		D8D83DFD296330380095D4F9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D83DFC296330380095D4F9 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D80EA42B299D41DA00E46A64 /* TempMainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempMainViewPresenter.swift; sourceTree = "<group>"; };
-		D80EA42D299D41FD00E46A64 /* TempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
 		D810C8E3296B2941002CF34E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		D85838AA29A26055006B8C95 /* LibraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewCell.swift; sourceTree = "<group>"; };
+		D81B514A29C20370003C14EF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D81B514B29C20370003C14EF /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		D81B514F29C203B8003C14EF /* StaticDIImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDIImpl.swift; sourceTree = "<group>"; };
+		D81B515529C20FD2003C14EF /* RouterAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterAssembly.swift; sourceTree = "<group>"; };
+		D81B515729C20FF9003C14EF /* NavigationContorllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContorllerAssembly.swift; sourceTree = "<group>"; };
+		D81B515929C21026003C14EF /* MainViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewAssembly.swift; sourceTree = "<group>"; };
+		D81B515B29C21070003C14EF /* Subscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscripts.swift; sourceTree = "<group>"; };
 		D86853F7294F516400BBDF46 /* SpeedReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86853FA294F516400BBDF46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D86853FC294F516400BBDF46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,12 +70,9 @@
 		D87D39DA298164D1005367A6 /* AssemblyBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyBuilderTests.swift; sourceTree = "<group>"; };
 		D87D39DC29817EF1005367A6 /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
 		D87D39DE2982D497005367A6 /* UIViewControllerExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensionTests.swift; sourceTree = "<group>"; };
-		D895B45A2966F826005F228F /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
-		D895B45F2966FE9D005F228F /* AssemblyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyBuilder.swift; sourceTree = "<group>"; };
 		D895B46229670062005F228F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D895B46629675846005F228F /* UIKit + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit + Extension.swift"; sourceTree = "<group>"; };
 		D8B7ABE72983EC33002414F6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		D8D83DFC296330380095D4F9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,20 +100,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D81B514E29C20385003C14EF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D81B514A29C20370003C14EF /* MainViewController.swift */,
+				D81B514B29C20370003C14EF /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D81B515129C203C1003C14EF /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				D81B514F29C203B8003C14EF /* StaticDIImpl.swift */,
+				D81B515B29C21070003C14EF /* Subscripts.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		D81B515429C204E3003C14EF /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				D81B515529C20FD2003C14EF /* RouterAssembly.swift */,
+				D81B515729C20FF9003C14EF /* NavigationContorllerAssembly.swift */,
+				D81B515929C21026003C14EF /* MainViewAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
 		D841E8D0296814D80002E513 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				D810C8E3296B2941002CF34E /* Book.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		D85838AC29A26059006B8C95 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				D85838AA29A26055006B8C95 /* LibraryTableViewCell.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		D86853EE294F516400BBDF46 = {
@@ -187,10 +209,11 @@
 				D841E8D0296814D80002E513 /* Models */,
 				D895B4652967582D005F228F /* Extensions */,
 				D895B46129670053005F228F /* Router */,
-				D895B45E2966FE8B005F228F /* Factory */,
 				D8D83DFB29632FD50095D4F9 /* Modules */,
 				D895B4592966F6C4005F228F /* Delegates */,
 				D8B7ABE92983EC37002414F6 /* Services */,
+				D81B515129C203C1003C14EF /* DI */,
+				D81B515429C204E3003C14EF /* Assembly */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -202,14 +225,6 @@
 				D86853FC294F516400BBDF46 /* SceneDelegate.swift */,
 			);
 			path = Delegates;
-			sourceTree = "<group>";
-		};
-		D895B45E2966FE8B005F228F /* Factory */ = {
-			isa = PBXGroup;
-			children = (
-				D895B45F2966FE9D005F228F /* AssemblyBuilder.swift */,
-			);
-			path = Factory;
 			sourceTree = "<group>";
 		};
 		D895B46129670053005F228F /* Router */ = {
@@ -239,21 +254,9 @@
 		D8D83DFB29632FD50095D4F9 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				D8D83DFE2963303D0095D4F9 /* MainModule */,
+				D81B514E29C20385003C14EF /* Main */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		D8D83DFE2963303D0095D4F9 /* MainModule */ = {
-			isa = PBXGroup;
-			children = (
-				D8D83DFC296330380095D4F9 /* MainViewController.swift */,
-				D895B45A2966F826005F228F /* MainViewPresenter.swift */,
-				D80EA42B299D41DA00E46A64 /* TempMainViewPresenter.swift */,
-				D80EA42D299D41FD00E46A64 /* TempViewController.swift */,
-				D85838AC29A26059006B8C95 /* Views */,
-			);
-			path = MainModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8685407294F516500BBDF46 /* LaunchScreen.storyboard in Resources */,
+				D81B514D29C20370003C14EF /* MainViewController.xib in Resources */,
 				D8685404294F516500BBDF46 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,17 +390,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80EA42C299D41DA00E46A64 /* TempMainViewPresenter.swift in Sources */,
+				D81B514C29C20370003C14EF /* MainViewController.swift in Sources */,
+				D81B515C29C21070003C14EF /* Subscripts.swift in Sources */,
+				D81B515A29C21026003C14EF /* MainViewAssembly.swift in Sources */,
 				D810C8E4296B2941002CF34E /* Book.swift in Sources */,
-				D8D83DFD296330380095D4F9 /* MainViewController.swift in Sources */,
-				D895B4602966FE9D005F228F /* AssemblyBuilder.swift in Sources */,
 				D86853FB294F516400BBDF46 /* AppDelegate.swift in Sources */,
-				D85838AB29A26055006B8C95 /* LibraryTableViewCell.swift in Sources */,
-				D80EA42E299D41FD00E46A64 /* TempViewController.swift in Sources */,
 				D895B46729675846005F228F /* UIKit + Extension.swift in Sources */,
-				D895B45B2966F826005F228F /* MainViewPresenter.swift in Sources */,
+				D81B515029C203B8003C14EF /* StaticDIImpl.swift in Sources */,
 				D895B46329670062005F228F /* Router.swift in Sources */,
 				D8B7ABE82983EC33002414F6 /* DataManager.swift in Sources */,
+				D81B515629C20FD2003C14EF /* RouterAssembly.swift in Sources */,
+				D81B515829C20FF9003C14EF /* NavigationContorllerAssembly.swift in Sources */,
 				D86853FD294F516400BBDF46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
