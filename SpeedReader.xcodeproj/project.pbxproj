@@ -211,9 +211,9 @@
 				D8B7ABE92983EC37002414F6 /* Services */,
 				D895B46129670053005F228F /* Router */,
 				D81B515129C203C1003C14EF /* DI */,
-				D895B4592966F6C4005F228F /* Delegates */,
 				D841E8D0296814D80002E513 /* Models */,
 				D895B4652967582D005F228F /* Extensions */,
+				D895B4592966F6C4005F228F /* Delegates */,
 			);
 			path = Core;
 			sourceTree = "<group>";
