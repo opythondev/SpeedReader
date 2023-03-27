@@ -11,7 +11,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="SpeedReader" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="dUg-HX-OQa" id="L9b-Tp-MoB"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,6 +19,28 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="hfc-He-bFy">
+                    <rect key="frame" x="16" y="179" width="393" height="132"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIt-sh-1Pm">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="54"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="54" id="eOe-Ke-0he"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter text" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cGc-1z-IwW">
+                            <rect key="frame" x="0.0" y="78" width="393" height="54"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="54" id="WcY-kt-27c"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                </stackView>
                 <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wK1-wL-8nk">
                     <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                     <items>
@@ -40,22 +61,18 @@
                         <tabBarItem systemItem="more" id="Wz9-hr-TjF"/>
                     </items>
                 </tabBar>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dUg-HX-OQa">
-                    <rect key="frame" x="0.0" y="155" width="393" height="614"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="dUg-HX-OQa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0yB-z4-PZN"/>
-                <constraint firstItem="dUg-HX-OQa" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="4vz-yz-Ioa"/>
-                <constraint firstItem="dUg-HX-OQa" firstAttribute="top" secondItem="wK1-wL-8nk" secondAttribute="bottom" id="9O6-Lm-UeG"/>
                 <constraint firstItem="wK1-wL-8nk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="LDn-NU-x5U"/>
+                <constraint firstItem="hfc-He-bFy" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="16" id="Qrn-Ib-XHy"/>
                 <constraint firstItem="uq1-qN-C5V" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="UKQ-iz-tEi"/>
+                <constraint firstItem="uq1-qN-C5V" firstAttribute="top" relation="greaterThanOrEqual" secondItem="hfc-He-bFy" secondAttribute="bottom" id="VAs-Rd-vHF"/>
                 <constraint firstItem="wK1-wL-8nk" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="eJB-Hz-ZwA"/>
                 <constraint firstItem="uq1-qN-C5V" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="f9Y-6K-JRY"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dUg-HX-OQa" secondAttribute="bottom" constant="49" id="kmx-Hh-w33"/>
+                <constraint firstItem="hfc-He-bFy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="jLb-7g-ZKf"/>
+                <constraint firstItem="hfc-He-bFy" firstAttribute="top" secondItem="wK1-wL-8nk" secondAttribute="bottom" constant="24" id="liM-bx-NfL"/>
                 <constraint firstItem="wK1-wL-8nk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="oa7-Bm-p0h"/>
                 <constraint firstItem="uq1-qN-C5V" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="uFJ-si-DbW"/>
             </constraints>
