@@ -1,4 +1,3 @@
-import Foundation
 import UIKit
 
 // lazySingleton - инитит объект при вызове впервые

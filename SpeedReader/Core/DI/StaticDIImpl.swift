@@ -17,9 +17,13 @@ protocol Assembly {
     init()
 }
 
+protocol ContainerProtocol {
+    func resolve<AssemblyType: Assembly, Value>(keyPath: KeyPath<AssemblyType, Definition<Value>>) -> Value
+}
+
 /// Контейнер для хранения объектов
 @dynamicMemberLookup
-final class Container {
+final class Container: ContainerProtocol {
     private var singletons: [ObjectIdentifier: Any] = [:]
 }
 

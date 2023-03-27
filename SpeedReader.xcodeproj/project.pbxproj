@@ -22,11 +22,11 @@
 		D8685412294F516500BBDF46 /* SpeedReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8685411294F516500BBDF46 /* SpeedReaderTests.swift */; };
 		D868541C294F516500BBDF46 /* SpeedReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868541B294F516500BBDF46 /* SpeedReaderUITests.swift */; };
 		D868541E294F516500BBDF46 /* SpeedReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868541D294F516500BBDF46 /* SpeedReaderUITestsLaunchTests.swift */; };
-		D87D39DB298164D1005367A6 /* AssemblyBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D39DA298164D1005367A6 /* AssemblyBuilderTests.swift */; };
 		D87D39DD29817EF1005367A6 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D39DC29817EF1005367A6 /* RouterTests.swift */; };
 		D87D39DF2982D497005367A6 /* UIViewControllerExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D39DE2982D497005367A6 /* UIViewControllerExtensionTests.swift */; };
 		D895B46329670062005F228F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B46229670062005F228F /* Router.swift */; };
 		D8B3735729CB5EA000ACBE11 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3735629CB5EA000ACBE11 /* UIViewController + Extension.swift */; };
+		D8B3735929CB5F3600ACBE11 /* DITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3735829CB5F3600ACBE11 /* DITests.swift */; };
 		D8B7ABE82983EC33002414F6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7ABE72983EC33002414F6 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,11 +67,11 @@
 		D8685417294F516500BBDF46 /* SpeedReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D868541B294F516500BBDF46 /* SpeedReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReaderUITests.swift; sourceTree = "<group>"; };
 		D868541D294F516500BBDF46 /* SpeedReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D87D39DA298164D1005367A6 /* AssemblyBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyBuilderTests.swift; sourceTree = "<group>"; };
 		D87D39DC29817EF1005367A6 /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
 		D87D39DE2982D497005367A6 /* UIViewControllerExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensionTests.swift; sourceTree = "<group>"; };
 		D895B46229670062005F228F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D8B3735629CB5EA000ACBE11 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		D8B3735829CB5F3600ACBE11 /* DITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DITests.swift; sourceTree = "<group>"; };
 		D8B7ABE72983EC33002414F6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,9 +170,9 @@
 		D8685410294F516500BBDF46 /* SpeedReaderTests */ = {
 			isa = PBXGroup;
 			children = (
+				D8B3735829CB5F3600ACBE11 /* DITests.swift */,
 				D87D39DE2982D497005367A6 /* UIViewControllerExtensionTests.swift */,
 				D87D39DC29817EF1005367A6 /* RouterTests.swift */,
-				D87D39DA298164D1005367A6 /* AssemblyBuilderTests.swift */,
 				D8685411294F516500BBDF46 /* SpeedReaderTests.swift */,
 			);
 			path = SpeedReaderTests;
@@ -411,8 +411,8 @@
 			files = (
 				D87D39DF2982D497005367A6 /* UIViewControllerExtensionTests.swift in Sources */,
 				D8685412294F516500BBDF46 /* SpeedReaderTests.swift in Sources */,
+				D8B3735929CB5F3600ACBE11 /* DITests.swift in Sources */,
 				D87D39DD29817EF1005367A6 /* RouterTests.swift in Sources */,
-				D87D39DB298164D1005367A6 /* AssemblyBuilderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

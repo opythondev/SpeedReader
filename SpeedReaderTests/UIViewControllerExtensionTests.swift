@@ -24,5 +24,23 @@ final class UIViewControllerExtensionTests: XCTestCase {
         let table = sut.createEmptyTableView()
         XCTAssertFalse(table.translatesAutoresizingMaskIntoConstraints)
     }
+    
+    func testCreateAddButton() {
+        let addButton = sut.createNavBarAddButton(color: .blue)
+        print(addButton.image.self)
+//        XCTAssertTrue(addButton.image?.accessibilityIdentifier == .add )
+        XCTAssertTrue(addButton.action == nil)
+        XCTAssertTrue(addButton.target == nil)
+        XCTAssertTrue(addButton.tintColor == .blue)
+    }
+    
+    func testCreateSortButton() {
+        let addButton = sut.createNavBarSortButton(color: .blue)
+        print(addButton.backgroundImage(for: .normal, barMetrics: .default))
+//        XCTAssertTrue(addButton.image?.accessibilityIdentifier == .add )
+        XCTAssertTrue(addButton.action == nil)
+        XCTAssertTrue(addButton.target == nil)
+        XCTAssertTrue(addButton.tintColor == .blue)
+    }
 
 }

@@ -11,10 +11,10 @@ final class RouterTests: XCTestCase {
     
     var sut: RouterProtocol!
     var navigationController = MockNavigationController()
-    var assemblyBuilder = AssemblyBuilder()
+    var assembly = Container()
 
     override func setUpWithError() throws {
-        sut = Router(navigationController: navigationController, assemblyBuilder: assemblyBuilder)
+        sut = Router(navigationController: navigationController, assembly: assembly)
     }
 
     override func tearDownWithError() throws {
