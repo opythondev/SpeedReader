@@ -27,8 +27,6 @@ final class UIViewControllerExtensionTests: XCTestCase {
     
     func testCreateAddButton() {
         let addButton = sut.createNavBarAddButton(color: .blue)
-        print(addButton.image.self)
-//        XCTAssertTrue(addButton.image?.accessibilityIdentifier == .add )
         XCTAssertTrue(addButton.action == nil)
         XCTAssertTrue(addButton.target == nil)
         XCTAssertTrue(addButton.tintColor == .blue)
@@ -36,8 +34,6 @@ final class UIViewControllerExtensionTests: XCTestCase {
     
     func testCreateSortButton() {
         let addButton = sut.createNavBarSortButton(color: .blue)
-        print(addButton.backgroundImage(for: .normal, barMetrics: .default))
-//        XCTAssertTrue(addButton.image?.accessibilityIdentifier == .add )
         XCTAssertTrue(addButton.action == nil)
         XCTAssertTrue(addButton.target == nil)
         XCTAssertTrue(addButton.tintColor == .blue)
