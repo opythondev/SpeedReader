@@ -3,8 +3,8 @@ import Foundation
 // lazySingleton - инитит объект при вызове впервые
 // prototype - создает объект при каждом вызове
 
-final class MainViewAssembly: Assembly {
-    var mainView = Definition(scope: .lazySingleton) { c in
-        MainViewController(viewModel: c.mainViewModel)
+final class MainViewModelAssembly: Assembly {
+    var mainViewModel = Definition(scope: .lazySingleton) { c in
+        MainViewModel()
     }
 }

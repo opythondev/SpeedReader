@@ -11,4 +11,8 @@ extension Container {
     subscript <Value> (dynamicMember keyPath: KeyPath<MainViewAssembly, Definition<Value>>) -> Value {
         return resolve(keyPath: keyPath)
     }
+    
+    subscript <Value> (dynamicMember keyPath: KeyPath<MainViewModelAssembly, Definition<Value>>) -> Value {
+        return resolve(keyPath: keyPath)
+    }
 }
