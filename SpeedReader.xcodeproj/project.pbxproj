@@ -11,11 +11,10 @@
 		D81B514C29C20370003C14EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B514A29C20370003C14EF /* MainViewController.swift */; };
 		D81B514D29C20370003C14EF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81B514B29C20370003C14EF /* MainViewController.xib */; };
 		D81B515029C203B8003C14EF /* StaticDIImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B514F29C203B8003C14EF /* StaticDIImpl.swift */; };
-		D81B515629C20FD2003C14EF /* RouterAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B515529C20FD2003C14EF /* RouterAssembly.swift */; };
-		D81B515829C20FF9003C14EF /* NavigationContorllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B515729C20FF9003C14EF /* NavigationContorllerAssembly.swift */; };
-		D81B515A29C21026003C14EF /* MainViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B515929C21026003C14EF /* MainViewAssembly.swift */; };
 		D81B515C29C21070003C14EF /* Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B515B29C21070003C14EF /* Subscripts.swift */; };
 		D822307329D466C700E50BAD /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D822307229D466C700E50BAD /* BaseViewModel.swift */; };
+		D82FD4C729D9B85000AC1A29 /* ViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82FD4C629D9B85000AC1A29 /* ViewAssembly.swift */; };
+		D82FD4C929D9B8A500AC1A29 /* ServiceAssemblies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82FD4C829D9B8A500AC1A29 /* ServiceAssemblies.swift */; };
 		D86853FB294F516400BBDF46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86853FA294F516400BBDF46 /* AppDelegate.swift */; };
 		D86853FD294F516400BBDF46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86853FC294F516400BBDF46 /* SceneDelegate.swift */; };
 		D8685404294F516500BBDF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8685403294F516500BBDF46 /* Assets.xcassets */; };
@@ -30,7 +29,6 @@
 		D8B3735929CB5F3600ACBE11 /* DITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3735829CB5F3600ACBE11 /* DITests.swift */; };
 		D8B7ABE82983EC33002414F6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7ABE72983EC33002414F6 /* DataManager.swift */; };
 		D8BE727629D1CAF2006D72D2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE727529D1CAF2006D72D2 /* MainViewModel.swift */; };
-		D8BE727829D1D1AC006D72D2 /* MainViewModelAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE727729D1D1AC006D72D2 /* MainViewModelAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +53,10 @@
 		D81B514A29C20370003C14EF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D81B514B29C20370003C14EF /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		D81B514F29C203B8003C14EF /* StaticDIImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDIImpl.swift; sourceTree = "<group>"; };
-		D81B515529C20FD2003C14EF /* RouterAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterAssembly.swift; sourceTree = "<group>"; };
-		D81B515729C20FF9003C14EF /* NavigationContorllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContorllerAssembly.swift; sourceTree = "<group>"; };
-		D81B515929C21026003C14EF /* MainViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewAssembly.swift; sourceTree = "<group>"; };
 		D81B515B29C21070003C14EF /* Subscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscripts.swift; sourceTree = "<group>"; };
 		D822307229D466C700E50BAD /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		D82FD4C629D9B85000AC1A29 /* ViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAssembly.swift; sourceTree = "<group>"; };
+		D82FD4C829D9B8A500AC1A29 /* ServiceAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAssemblies.swift; sourceTree = "<group>"; };
 		D86853F7294F516400BBDF46 /* SpeedReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86853FA294F516400BBDF46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D86853FC294F516400BBDF46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +75,6 @@
 		D8B3735829CB5F3600ACBE11 /* DITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DITests.swift; sourceTree = "<group>"; };
 		D8B7ABE72983EC33002414F6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		D8BE727529D1CAF2006D72D2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		D8BE727729D1D1AC006D72D2 /* MainViewModelAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,10 +125,8 @@
 		D81B515429C204E3003C14EF /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				D81B515529C20FD2003C14EF /* RouterAssembly.swift */,
-				D81B515729C20FF9003C14EF /* NavigationContorllerAssembly.swift */,
-				D81B515929C21026003C14EF /* MainViewAssembly.swift */,
-				D8BE727729D1D1AC006D72D2 /* MainViewModelAssembly.swift */,
+				D82FD4C629D9B85000AC1A29 /* ViewAssembly.swift */,
+				D82FD4C829D9B8A500AC1A29 /* ServiceAssemblies.swift */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
@@ -408,18 +402,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D81B514C29C20370003C14EF /* MainViewController.swift in Sources */,
-				D8BE727829D1D1AC006D72D2 /* MainViewModelAssembly.swift in Sources */,
+				D82FD4C729D9B85000AC1A29 /* ViewAssembly.swift in Sources */,
 				D81B515C29C21070003C14EF /* Subscripts.swift in Sources */,
-				D81B515A29C21026003C14EF /* MainViewAssembly.swift in Sources */,
 				D810C8E4296B2941002CF34E /* Book.swift in Sources */,
 				D86853FB294F516400BBDF46 /* AppDelegate.swift in Sources */,
 				D8BE727629D1CAF2006D72D2 /* MainViewModel.swift in Sources */,
+				D82FD4C929D9B8A500AC1A29 /* ServiceAssemblies.swift in Sources */,
 				D81B515029C203B8003C14EF /* StaticDIImpl.swift in Sources */,
 				D895B46329670062005F228F /* Router.swift in Sources */,
 				D8B7ABE82983EC33002414F6 /* DataManager.swift in Sources */,
-				D81B515629C20FD2003C14EF /* RouterAssembly.swift in Sources */,
 				D822307329D466C700E50BAD /* BaseViewModel.swift in Sources */,
-				D81B515829C20FF9003C14EF /* NavigationContorllerAssembly.swift in Sources */,
 				D8B3735729CB5EA000ACBE11 /* UIViewController + Extension.swift in Sources */,
 				D86853FD294F516400BBDF46 /* SceneDelegate.swift in Sources */,
 			);
