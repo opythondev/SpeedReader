@@ -27,6 +27,7 @@
 		D893E2022A03694C008198FC /* CoordinatorTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893E1F92A03694C008198FC /* CoordinatorTestApp.swift */; };
 		D893E2052A036954008198FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D893E2042A036954008198FC /* Preview Assets.xcassets */; };
 		D893E2072A036E25008198FC /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893E2062A036E25008198FC /* TabModel.swift */; };
+		D893E2112A037443008198FC /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893E2102A037443008198FC /* RouterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,13 @@
 			remoteInfo = SpeedReader;
 		};
 		D8685418294F516500BBDF46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D86853EF294F516400BBDF46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D86853F6294F516400BBDF46;
+			remoteInfo = SpeedReader;
+		};
+		D893E2122A037443008198FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D86853EF294F516400BBDF46 /* Project object */;
 			proxyType = 1;
@@ -71,6 +79,8 @@
 		D893E2042A036954008198FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D893E2062A036E25008198FC /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
 		D893E2092A0373CF008198FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D893E20E2A037443008198FC /* RouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D893E2102A037443008198FC /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +105,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D893E20B2A037443008198FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				D86853F9294F516400BBDF46 /* SpeedReader */,
+				D893E20F2A037443008198FC /* RouterTests */,
 				D86853F8294F516400BBDF46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +130,7 @@
 				D86853F7294F516400BBDF46 /* SpeedReader.app */,
 				D868540D294F516500BBDF46 /* SpeedReaderTests.xctest */,
 				D8685417294F516500BBDF46 /* SpeedReaderUITests.xctest */,
+				D893E20E2A037443008198FC /* RouterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,6 +259,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		D893E20F2A037443008198FC /* RouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D893E2102A037443008198FC /* RouterTests.swift */,
+			);
+			path = RouterTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,6 +323,24 @@
 			productReference = D8685417294F516500BBDF46 /* SpeedReaderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D893E20D2A037443008198FC /* RouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D893E2142A037443008198FC /* Build configuration list for PBXNativeTarget "RouterTests" */;
+			buildPhases = (
+				D893E20A2A037443008198FC /* Sources */,
+				D893E20B2A037443008198FC /* Frameworks */,
+				D893E20C2A037443008198FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D893E2132A037443008198FC /* PBXTargetDependency */,
+			);
+			name = RouterTests;
+			productName = RouterTests;
+			productReference = D893E20E2A037443008198FC /* RouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -317,6 +362,10 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = D86853F6294F516400BBDF46;
 					};
+					D893E20D2A037443008198FC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D86853F6294F516400BBDF46;
+					};
 				};
 			};
 			buildConfigurationList = D86853F2294F516400BBDF46 /* Build configuration list for PBXProject "SpeedReader" */;
@@ -335,6 +384,7 @@
 				D86853F6294F516400BBDF46 /* SpeedReader */,
 				D868540C294F516500BBDF46 /* SpeedReaderTests */,
 				D8685416294F516500BBDF46 /* SpeedReaderUITests */,
+				D893E20D2A037443008198FC /* RouterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -357,6 +407,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D8685415294F516500BBDF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D893E20C2A037443008198FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,6 +462,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D893E20A2A037443008198FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D893E2112A037443008198FC /* RouterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -417,6 +482,11 @@
 			isa = PBXTargetDependency;
 			target = D86853F6294F516400BBDF46 /* SpeedReader */;
 			targetProxy = D8685418294F516500BBDF46 /* PBXContainerItemProxy */;
+		};
+		D893E2132A037443008198FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D86853F6294F516400BBDF46 /* SpeedReader */;
+			targetProxy = D893E2122A037443008198FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -671,6 +741,50 @@
 			};
 			name = Release;
 		};
+		D893E2152A037443008198FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MZ839TWKQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = petermorris.RouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedReader";
+			};
+			name = Debug;
+		};
+		D893E2162A037443008198FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MZ839TWKQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = petermorris.RouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedReader";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -706,6 +820,15 @@
 			buildConfigurations = (
 				D8685428294F516500BBDF46 /* Debug */,
 				D8685429294F516500BBDF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D893E2142A037443008198FC /* Build configuration list for PBXNativeTarget "RouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D893E2152A037443008198FC /* Debug */,
+				D893E2162A037443008198FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
