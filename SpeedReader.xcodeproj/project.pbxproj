@@ -70,6 +70,7 @@
 		D893E1F92A03694C008198FC /* CoordinatorTestApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorTestApp.swift; sourceTree = "<group>"; };
 		D893E2042A036954008198FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D893E2062A036E25008198FC /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		D893E2092A0373CF008198FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +123,7 @@
 				D893E1EE2A03694C008198FC /* Core */,
 				D868542A294F80ED00BBDF46 /* Resources */,
 				D893E2032A036954008198FC /* Preview Content */,
+				D893E2092A0373CF008198FC /* README.md */,
 			);
 			path = SpeedReader;
 			sourceTree = "<group>";
