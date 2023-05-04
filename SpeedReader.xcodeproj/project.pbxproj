@@ -90,6 +90,7 @@
 		D86853EE294F516400BBDF46 = {
 			isa = PBXGroup;
 			children = (
+				D893E2092A0373CF008198FC /* README.md */,
 				D86853F9294F516400BBDF46 /* SpeedReader */,
 				D893E2202A037B36008198FC /* SpeedReaderTests */,
 				D86853F8294F516400BBDF46 /* Products */,
@@ -112,7 +113,6 @@
 				D893E1EE2A03694C008198FC /* Core */,
 				D868542A294F80ED00BBDF46 /* Resources */,
 				D893E2032A036954008198FC /* Preview Content */,
-				D893E2092A0373CF008198FC /* README.md */,
 			);
 			path = SpeedReader;
 			sourceTree = "<group>";
