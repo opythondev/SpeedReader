@@ -1,7 +1,7 @@
 import XCTest
 import SwiftUI
 import Combine
-@testable import CoordinatorTest
+@testable import SpeedReader
 
 final class RouterTests: XCTestCase {
     

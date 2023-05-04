@@ -27,25 +27,12 @@
 		D893E2022A03694C008198FC /* CoordinatorTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893E1F92A03694C008198FC /* CoordinatorTestApp.swift */; };
 		D893E2052A036954008198FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D893E2042A036954008198FC /* Preview Assets.xcassets */; };
 		D893E2072A036E25008198FC /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893E2062A036E25008198FC /* TabModel.swift */; };
-		D893E2112A037443008198FC /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893E2102A037443008198FC /* RouterTests.swift */; };
+		D893E2222A037B36008198FC /* SpeedReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893E2212A037B36008198FC /* SpeedReaderTests.swift */; };
+		D893E2282A037B40008198FC /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893E2102A037443008198FC /* RouterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D868540E294F516500BBDF46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D86853EF294F516400BBDF46 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D86853F6294F516400BBDF46;
-			remoteInfo = SpeedReader;
-		};
-		D8685418294F516500BBDF46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D86853EF294F516400BBDF46 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D86853F6294F516400BBDF46;
-			remoteInfo = SpeedReader;
-		};
-		D893E2122A037443008198FC /* PBXContainerItemProxy */ = {
+		D893E2232A037B36008198FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D86853EF294F516400BBDF46 /* Project object */;
 			proxyType = 1;
@@ -57,8 +44,6 @@
 /* Begin PBXFileReference section */
 		D86853F7294F516400BBDF46 /* SpeedReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8685403294F516500BBDF46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D868540D294F516500BBDF46 /* SpeedReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8685417294F516500BBDF46 /* SpeedReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D893E1DA2A036945008198FC /* BasicPageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicPageViewModel.swift; sourceTree = "<group>"; };
 		D893E1DD2A036945008198FC /* LibraryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
 		D893E1DE2A036945008198FC /* LibraryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
@@ -79,8 +64,9 @@
 		D893E2042A036954008198FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D893E2062A036E25008198FC /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
 		D893E2092A0373CF008198FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D893E20E2A037443008198FC /* RouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D893E2102A037443008198FC /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
+		D893E21F2A037B36008198FC /* SpeedReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D893E2212A037B36008198FC /* SpeedReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,21 +77,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D868540A294F516500BBDF46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8685414294F516500BBDF46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D893E20B2A037443008198FC /* Frameworks */ = {
+		D893E21C2A037B36008198FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				D86853F9294F516400BBDF46 /* SpeedReader */,
-				D893E20F2A037443008198FC /* RouterTests */,
+				D893E2202A037B36008198FC /* SpeedReaderTests */,
 				D86853F8294F516400BBDF46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,9 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D86853F7294F516400BBDF46 /* SpeedReader.app */,
-				D868540D294F516500BBDF46 /* SpeedReaderTests.xctest */,
-				D8685417294F516500BBDF46 /* SpeedReaderUITests.xctest */,
-				D893E20E2A037443008198FC /* RouterTests.xctest */,
+				D893E21F2A037B36008198FC /* SpeedReaderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -259,12 +229,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		D893E20F2A037443008198FC /* RouterTests */ = {
+		D893E2202A037B36008198FC /* SpeedReaderTests */ = {
 			isa = PBXGroup;
 			children = (
 				D893E2102A037443008198FC /* RouterTests.swift */,
+				D893E2212A037B36008198FC /* SpeedReaderTests.swift */,
 			);
-			path = RouterTests;
+			path = SpeedReaderTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,58 +258,22 @@
 			productReference = D86853F7294F516400BBDF46 /* SpeedReader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D868540C294F516500BBDF46 /* SpeedReaderTests */ = {
+		D893E21E2A037B36008198FC /* SpeedReaderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8685424294F516500BBDF46 /* Build configuration list for PBXNativeTarget "SpeedReaderTests" */;
+			buildConfigurationList = D893E2252A037B36008198FC /* Build configuration list for PBXNativeTarget "SpeedReaderTests" */;
 			buildPhases = (
-				D8685409294F516500BBDF46 /* Sources */,
-				D868540A294F516500BBDF46 /* Frameworks */,
-				D868540B294F516500BBDF46 /* Resources */,
+				D893E21B2A037B36008198FC /* Sources */,
+				D893E21C2A037B36008198FC /* Frameworks */,
+				D893E21D2A037B36008198FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D868540F294F516500BBDF46 /* PBXTargetDependency */,
+				D893E2242A037B36008198FC /* PBXTargetDependency */,
 			);
 			name = SpeedReaderTests;
 			productName = SpeedReaderTests;
-			productReference = D868540D294F516500BBDF46 /* SpeedReaderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D8685416294F516500BBDF46 /* SpeedReaderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D8685427294F516500BBDF46 /* Build configuration list for PBXNativeTarget "SpeedReaderUITests" */;
-			buildPhases = (
-				D8685413294F516500BBDF46 /* Sources */,
-				D8685414294F516500BBDF46 /* Frameworks */,
-				D8685415294F516500BBDF46 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D8685419294F516500BBDF46 /* PBXTargetDependency */,
-			);
-			name = SpeedReaderUITests;
-			productName = SpeedReaderUITests;
-			productReference = D8685417294F516500BBDF46 /* SpeedReaderUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		D893E20D2A037443008198FC /* RouterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D893E2142A037443008198FC /* Build configuration list for PBXNativeTarget "RouterTests" */;
-			buildPhases = (
-				D893E20A2A037443008198FC /* Sources */,
-				D893E20B2A037443008198FC /* Frameworks */,
-				D893E20C2A037443008198FC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D893E2132A037443008198FC /* PBXTargetDependency */,
-			);
-			name = RouterTests;
-			productName = RouterTests;
-			productReference = D893E20E2A037443008198FC /* RouterTests.xctest */;
+			productReference = D893E21F2A037B36008198FC /* SpeedReaderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -354,15 +289,7 @@
 					D86853F6294F516400BBDF46 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					D868540C294F516500BBDF46 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = D86853F6294F516400BBDF46;
-					};
-					D8685416294F516500BBDF46 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = D86853F6294F516400BBDF46;
-					};
-					D893E20D2A037443008198FC = {
+					D893E21E2A037B36008198FC = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = D86853F6294F516400BBDF46;
 					};
@@ -382,9 +309,7 @@
 			projectRoot = "";
 			targets = (
 				D86853F6294F516400BBDF46 /* SpeedReader */,
-				D868540C294F516500BBDF46 /* SpeedReaderTests */,
-				D8685416294F516500BBDF46 /* SpeedReaderUITests */,
-				D893E20D2A037443008198FC /* RouterTests */,
+				D893E21E2A037B36008198FC /* SpeedReaderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -399,21 +324,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D868540B294F516500BBDF46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8685415294F516500BBDF46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D893E20C2A037443008198FC /* Resources */ = {
+		D893E21D2A037B36008198FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,45 +359,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8685409294F516500BBDF46 /* Sources */ = {
+		D893E21B2A037B36008198FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8685413294F516500BBDF46 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D893E20A2A037443008198FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D893E2112A037443008198FC /* RouterTests.swift in Sources */,
+				D893E2282A037B40008198FC /* RouterTests.swift in Sources */,
+				D893E2222A037B36008198FC /* SpeedReaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D868540F294F516500BBDF46 /* PBXTargetDependency */ = {
+		D893E2242A037B36008198FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D86853F6294F516400BBDF46 /* SpeedReader */;
-			targetProxy = D868540E294F516500BBDF46 /* PBXContainerItemProxy */;
-		};
-		D8685419294F516500BBDF46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D86853F6294F516400BBDF46 /* SpeedReader */;
-			targetProxy = D8685418294F516500BBDF46 /* PBXContainerItemProxy */;
-		};
-		D893E2132A037443008198FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D86853F6294F516400BBDF46 /* SpeedReader */;
-			targetProxy = D893E2122A037443008198FC /* PBXContainerItemProxy */;
+			targetProxy = D893E2232A037B36008198FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -665,16 +553,15 @@
 			};
 			name = Release;
 		};
-		D8685425294F516500BBDF46 /* Debug */ = {
+		D893E2262A037B36008198FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MZ839TWKQT;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_FILE = "";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = petermorris.SpeedReaderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -685,99 +572,18 @@
 			};
 			name = Debug;
 		};
-		D8685426294F516500BBDF46 /* Release */ = {
+		D893E2272A037B36008198FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MZ839TWKQT;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_FILE = "";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = petermorris.SpeedReaderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedReader";
-			};
-			name = Release;
-		};
-		D8685428294F516500BBDF46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MZ839TWKQT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = petermorris.SpeedReaderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpeedReader;
-			};
-			name = Debug;
-		};
-		D8685429294F516500BBDF46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MZ839TWKQT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = petermorris.SpeedReaderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpeedReader;
-			};
-			name = Release;
-		};
-		D893E2152A037443008198FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MZ839TWKQT;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = petermorris.RouterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedReader";
-			};
-			name = Debug;
-		};
-		D893E2162A037443008198FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MZ839TWKQT;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = petermorris.RouterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -806,29 +612,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8685424294F516500BBDF46 /* Build configuration list for PBXNativeTarget "SpeedReaderTests" */ = {
+		D893E2252A037B36008198FC /* Build configuration list for PBXNativeTarget "SpeedReaderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8685425294F516500BBDF46 /* Debug */,
-				D8685426294F516500BBDF46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D8685427294F516500BBDF46 /* Build configuration list for PBXNativeTarget "SpeedReaderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8685428294F516500BBDF46 /* Debug */,
-				D8685429294F516500BBDF46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D893E2142A037443008198FC /* Build configuration list for PBXNativeTarget "RouterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D893E2152A037443008198FC /* Debug */,
-				D893E2162A037443008198FC /* Release */,
+				D893E2262A037B36008198FC /* Debug */,
+				D893E2272A037B36008198FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
